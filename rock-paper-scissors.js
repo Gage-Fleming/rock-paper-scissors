@@ -21,5 +21,5 @@ function getComputerChoice() {
 }
 
 function playRound(playerSelection, computerSelection) {
-
+    let formattedPlayerSelection = playerSelection[0].toUpperCase() + playerSelection.slice(1);
 }
