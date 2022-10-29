@@ -3,5 +3,17 @@ function getRndInteger(min, max) {
   }
 
 function getComputerChoice() {
-    let randNum = getRndInteger(0, 2);
+    switch(getRndInteger(0, 2)) {
+        case 0:
+            return 'Rock';
+            break;
+        case 1:
+            return 'Paper';
+            break;
+        case 2:
+            return 'Scissors';
+            break;
+        default:
+            return 'ERROR';
+    }
 }
