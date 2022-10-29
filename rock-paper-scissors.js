@@ -19,3 +19,7 @@ function getComputerChoice() {
             return 'ERROR';
     }
 }
+
+function playRound(playerSelection, computerSelection) {
+
+}
