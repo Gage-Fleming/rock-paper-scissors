@@ -22,4 +22,10 @@ function getComputerChoice() {
 
 function playRound(playerSelection, computerSelection) {
     let formattedPlayerSelection = playerSelection[0].toUpperCase() + playerSelection.slice(1);
+    switch(formattedPlayerSelection) {
+        case 'Scissors':
+            if (computerSelection === 'Rock') {
+                return 'You lost!'
+            }
+    }
 }
